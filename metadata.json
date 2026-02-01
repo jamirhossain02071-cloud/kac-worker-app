@@ -1,0 +1,8 @@
+
+{
+  "name": "KAC Worker Management System",
+  "description": "A professional migration of the Kuddus Ali Construction management system, featuring worker registration, attendance tracking, and activity reporting with enterprise-grade UI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
