@@ -16,8 +16,8 @@
   
 //   return { success: false, error: "Invalid ID or Password" };
 // };
-import { UserSession } from '../types';
-import { supabase } from '../supabase';
+import { UserSession } from '../types'; // যদি types.ts ফাইলটি src-তে থাকে
+import { supabase } from '../supabase'; // এটি এখন সরাসরি src/supabase.ts-কে খুঁজে পাবে
 
 export const validateLogin = async (id: string, pass: string): Promise<UserSession> => {
   try {
